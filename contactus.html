@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2>Contact Us</h2>
+    <form>
+      <fieldset>
+        <legend>
+          <span> Contact Us </span>
+        </legend>
+        <table>
+          <tbody>
+            <tr>
+              <td><label>Full Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="fname"
+                  required
+                  maxlength="40"
+                  placeholder="Max Character Length-40"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Mobile No: </label></td>
+              <td><input type="number" required /></td>
+            </tr>
+            <tr>
+              <td><label>Email Address </label></td>
+              <td>
+                <input type="email" required placeholder="Ex.abc@gmail.com" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Enquiry: </label>
+              </td>
+              <td>
+                <textarea name="message" cols="25" rows="7"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td><button type="submit">Submit</button></td>
+              <td><button type="reset">Clear</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
