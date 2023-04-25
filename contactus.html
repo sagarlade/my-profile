@@ -5,6 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <style>
+      label {
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        padding: 2rem;
+      }
+      input{
+        margin: 0.6rem 0;
+        text-align: start;
+        border-radius: 10px;
+        width: 20%;
+        padding: 0.5rem;
+      }
+      .en{
+        text-align: center;
+      }
+      button{
+        font-size: 1.1rem;
+        width: 10%;
+        margin-right: 30px;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 0.5rem;
+      }
+      button:hover{
+        background-color: rgb(9, 120, 124);
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h2>Contact Us</h2>
@@ -13,45 +42,26 @@
         <legend>
           <span> Contact Us </span>
         </legend>
-        <table>
-          <tbody>
-            <tr>
-              <td><label>Full Name:</label></td>
-              <td>
-                <input
-                  type="text"
-                  id="fname"
-                  required
-                  maxlength="40"
-                  placeholder="Max Character Length-40"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td><label>Mobile No: </label></td>
-              <td><input type="number" required /></td>
-            </tr>
-            <tr>
-              <td><label>Email Address </label></td>
-              <td>
-                <input type="email" required placeholder="Ex.abc@gmail.com" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label>Enquiry: </label>
-              </td>
-              <td>
-                <textarea name="message" cols="25" rows="7"></textarea>
-              </td>
-            </tr>
-
-            <tr>
-              <td><button type="submit">Submit</button></td>
-              <td><button type="reset">Clear</button></td>
-            </tr>
-          </tbody>
-        </table>
+        <label>Full Name:</label>
+        <input
+          type="text"
+          id="fname"
+          required
+          maxlength="40"
+          placeholder="Max Character Length-40"
+        />
+        <br />
+        <label>Mobile No: </label>
+        <input type="number" required />
+        <br />
+        <label>Email Address:</label>
+        <input type="email" required placeholder="Ex.abc@gmail.com" />
+        <br />
+        <label class="en">Enquiry: </label>
+        <textarea name="message" cols="25" rows="7"></textarea>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
       </fieldset>
     </form>
   </body>
