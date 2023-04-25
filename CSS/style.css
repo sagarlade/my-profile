@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Roboto Slab", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*INDEX STYLESHEET*/
+iframe {
+  height: 70vh;
+  width: 900px;
+  border: 1px solid black;
+}
+header {
+  background-color: rgb(4, 81, 87);
+  height: 30px;
+  padding-top: 10px;
+}
+header i {
+  color: aliceblue;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+.span-1,
+.span-2,
+.span-3 {
+  color: rgb(247, 247, 247);
+  margin-right: 50px;
+  font-size: 1.03rem;
+}
+nav a {
+  text-transform: uppercase;
+  margin-right: 1.3rem;
+  margin-left: 5px;
+  color: rgb(5, 81, 87);
+}
+/* FOOTER CSS */
+footer {
+  margin-top: 2rem;
+}
+.follow {
+  font-size: x-large;
+  color: black;
+  margin-right: 50px;
+  margin-left: 5px;
+}
+footer a {
+  margin-right: 40px;
+  font-size: 1.5rem;
+}
+
+/* INDEX STYLESHEET END */
+
+/*HOME STYLESHEET*/
+ul {
+  list-style: circle;
+}
+.career {
+  text-transform: lowercase;
+  padding-left: 40px;
+  font-size: 1.1rem;
+}
+
+.head {
+  color: rgb(255, 5, 5);
+  background-color: rgb(106, 230, 235);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 1.7rem;
+  font-family: "Roboto Slab", serif;
+}
+.angular {
+  color: rgb(241, 81, 18);
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+ul {
+  background-color: aquamarine;
+}
+ul li {
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+/* ====== EDUCTION STYLESHEET=========*/
+#educ {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Noto Serif", serif;
+}
+table {
+  margin-right: 80px;
+}
+td,
+th {
+  padding: 10px;
+}
+/* ====== EDUCTION STYLESHEET END=========*/
+
+/* ====== Techology stack STYLESHEET start=========*/
+.p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.te {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* ====== Techology stack STYLESHEET END=========*/
+
+/* ====== Personal STYLESHEET start=========*/
+img {
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.ca {
+  margin-left: 40px;
+  margin-top: 1px;
+}
+.had {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Noto Serif", serif;
+  margin-left: 7px;
+}
+.pe {
+  margin-left: 7px;
+  padding: 3px 5px;
+}
+
+
+/*==================================================*/
+
